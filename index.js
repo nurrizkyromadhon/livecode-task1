@@ -36,4 +36,4 @@ io.on('connection', (socket) =>
 
 server.listen(3000, () => {console.log('> Server dijalankan di port %d', port)});
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + './index.html'));
